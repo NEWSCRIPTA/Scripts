@@ -356,21 +356,21 @@ end
 	local Properties = {
 		RoundFrame = {
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5554237731",
+			Image = "http://www.roblox.com/asset/?id=16488910706",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(3,3,297,297)
 		},
 		SmoothButton = {
 			AutoButtonColor = false,
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5554237731",
+			Image = "http://www.roblox.com/asset/?id=16488910706",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(3,3,297,297)
 		},
 		Shadow = {
 			Name = "Shadow",
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5554236805",
+			Image = "http://www.roblox.com/asset/?id=16488910706",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(23,23,277,277),
 			Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
@@ -378,12 +378,12 @@ end
 		},
 		Circle = {
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5554831670"
+			Image = "http://www.roblox.com/asset/?id=16488910706"
 		},
 		CircleButton = {
 			BackgroundTransparency = 1,
 			AutoButtonColor = false,
-			Image = "http://www.roblox.com/asset/?id=5554831670"
+			Image = "http://www.roblox.com/asset/?id=16488910706"
 		},
 		Frame = {
 			BackgroundTransparency = 1,
@@ -421,13 +421,13 @@ end
 			Name = "More",
 			AutoButtonColor = false,
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5555108481",
+			Image = "http://www.roblox.com/asset/?id=16488910706",
 			Size = UDim2.fromOffset(20,20),
 			Position = UDim2.fromScale(1,0.5) - UDim2.fromOffset(25,10)
 		},
 		NavBar = {
 			Name = "SheetToggle",
-			Image = "http://www.roblox.com/asset/?id=5576439039",
+			Image = "http://www.roblox.com/asset/?id=16488910706",
 			BackgroundTransparency = 1,
 			Size = UDim2.fromOffset(20,20),
 			Position = UDim2.fromOffset(5,5),
@@ -570,7 +570,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=13717478897"
+ImageButton.Image = "http://www.roblox.com/asset/?id=16488910706"
 ImageButton.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.F1,false,game)
 end)
@@ -1584,7 +1584,7 @@ end)
 					if default == true then
 						MainToggle_3.BackgroundColor3 = _G.Color
 						MainToggle_3:TweenSize(UDim2.new(0, 28, 0, 28),"In","Linear",0.2,true)
-						MainToggle_3.Image = "http://www.roblox.com/asset/?id=6023426926"
+						MainToggle_3.Image = "http://www.roblox.com/asset/?id=16488910706"
 						UICorner_3.CornerRadius = UDim.new(0, 100)
 						pcall(callback,true)
 					end
@@ -1598,7 +1598,7 @@ end)
 						else
 							MainToggle_3.BackgroundColor3 = _G.Color
 							MainToggle_3:TweenSize(UDim2.new(0, 28, 0, 28),"In","Linear",0.2,true)
-							MainToggle_3.Image = "http://www.roblox.com/asset/?id=6023426926"
+							MainToggle_3.Image = "http://www.roblox.com/asset/?id=16488910706"
 							UICorner_3.CornerRadius = UDim.new(0, 100)
 						end
 					end)
@@ -1612,7 +1612,7 @@ end)
 						else
 							MainToggle_3.BackgroundColor3 = _G.Color
 							MainToggle_3:TweenSize(UDim2.new(0, 25, 0, 25),"In","Linear",0.2,true)
-							MainToggle_3.Image = "http://www.roblox.com/asset/?id=6023426926"
+							MainToggle_3.Image = "http://www.roblox.com/asset/?id=16488910706"
 							UICorner_3.CornerRadius = UDim.new(0, 100)
 						end
 					end)
@@ -1628,7 +1628,7 @@ end)
 							Tgo = true
 							pcall(callback,true)
 							MainToggle_3.BackgroundColor3 = _G.Color
-							MainToggle_3.Image = "http://www.roblox.com/asset/?id=6023426926"
+							MainToggle_3.Image = "http://www.roblox.com/asset/?id=16488910706"
 							UICorner_3.CornerRadius = UDim.new(0, 100)
 							MainToggle_3:TweenSize(UDim2.new(0, 29, 0, 29),"In","Linear",0.2,true)
 							wait(0.2)
@@ -1926,7 +1926,7 @@ end)
 					ImageButton.Position = UDim2.new(0, 235, 0, 10)
 					ImageButton.Size = UDim2.new(0, 13, 0, 13)
 					ImageButton.ZIndex = 16
-					ImageButton.Image = "http://www.roblox.com/asset/?id=6282522798"
+					ImageButton.Image = "http://www.roblox.com/asset/?id=16488910706"
 	
 					local UICorner_35 = Instance.new("UICorner")
 					UICorner_35.CornerRadius = UDim.new(0, 5)
@@ -2211,7 +2211,7 @@ end)
 					ImageButton.Position = UDim2.new(1, -25, 0.5, 0)
 					ImageButton.Size = UDim2.new(0, 12, 0, 12)
 					ImageButton.ZIndex = 16
-					ImageButton.Image = "http://www.roblox.com/asset/?id=6282522798"
+					ImageButton.Image = "http://www.roblox.com/asset/?id=16488910706"
 					local DropTable = {}
 					Scroll_Items.Name = "Scroll_Items"
 					Scroll_Items.Parent = MainDropDown
