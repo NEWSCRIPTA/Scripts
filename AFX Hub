@@ -356,21 +356,21 @@ end
 	local Properties = {
 		RoundFrame = {
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=16488890762",
+			Image = "http://www.roblox.com/asset/?id=5554237731",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(3,3,297,297)
 		},
 		SmoothButton = {
 			AutoButtonColor = false,
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=16488890762",
+			Image = "http://www.roblox.com/asset/?id=5554237731",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(3,3,297,297)
 		},
 		Shadow = {
 			Name = "Shadow",
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=16488890762",
+			Image = "http://www.roblox.com/asset/?id=5554236805",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(23,23,277,277),
 			Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
@@ -378,12 +378,12 @@ end
 		},
 		Circle = {
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=16488890762"
+			Image = "http://www.roblox.com/asset/?id=5554831670"
 		},
 		CircleButton = {
 			BackgroundTransparency = 1,
 			AutoButtonColor = false,
-			Image = "http://www.roblox.com/asset/?id=16488890762"
+			Image = "http://www.roblox.com/asset/?id=5554831670"
 		},
 		Frame = {
 			BackgroundTransparency = 1,
@@ -2813,16 +2813,16 @@ end)
 	
 	function LoadSettings()
 		if readfile and writefile and isfile and isfolder then
-			if not isfolder("Min Gaming") then
-				makefolder("Min Gaming")
+			if not isfolder("AFX Hub") then
+				makefolder("AFX Hub")
 			end
-			if not isfolder("Min Gaming/Blox Fruits/") then
-				makefolder("Min Gaming/Blox Fruits/")
+			if not isfolder("AFX Hub/Blox Fruits/") then
+				makefolder("AFX Hub/Blox Fruits/")
 			end
-			if not isfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
-				writefile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
+			if not isfile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+				writefile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
 			else
-				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
+				local Decode = game:GetService("HttpService"):JSONDecode(readfile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
 				for i,v in pairs(Decode) do
 					_G.Settings[i] = v
 				end
@@ -2834,15 +2834,15 @@ end)
 	
 	function SaveSettings()
 		if readfile and writefile and isfile and isfolder then
-			if not isfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+			if not isfile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
 				LoadSettings()
 			else
-				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
+				local Decode = game:GetService("HttpService"):JSONDecode(readfile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
 				local Array = {}
 				for i,v in pairs(_G.Settings) do
 					Array[i] = v
 				end
-				writefile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(Array))
+				writefile("AFX Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(Array))
 			end
 		else
 			return warn("Status : Undetected Executor")
@@ -12750,7 +12750,7 @@ MiscSection1:AddButton({
 	end
 })
 FakeDamage("Min_Gaming_On_Top")
-Vec("<Color=Yellow>Min Gaming loaded Finished<Color=/>")
+Vec("<Color=Yellow>AFX Hub Loaded Finished, Thank You For Using My Script<Color=/>")
 	--Vec("<Color=Yellow>:ENG:\n:If the gui doesn't load, use Fluxus in the Executor room:\n:TH:\n:ถ้าหน้าต่างโปรไม่โหลดให้ใช้ Fluxus ที่ผมแจกในห้อง Executor:<Color=/>")
 else
 	game.Players.LocalPlayer:Kick("..")
