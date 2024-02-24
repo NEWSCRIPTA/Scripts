@@ -618,7 +618,7 @@ end)
 					Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					Circle.BackgroundTransparency = 1.000
 					Circle.ZIndex = 10
-					Circle.Image = "rbxassetid://266543268"
+					Circle.Image = "rbxassetid://16489330550"
 					Circle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 					Circle.ImageTransparency = 0.7
 					local NewX = X - Circle.AbsolutePosition.X
@@ -754,7 +754,7 @@ end)
 		Logo.Position = UDim2.new(0, 10, 0, 10)
 		Logo.Size = UDim2.new(0, 30, 0, 30)
 		Logo.ImageTransparency = 0
-		Logo.Image = "rbxassetid://13717478897"
+		Logo.Image = "rbxassetid://16489330550"
 	
 		Logo_Background.Name = "Logo"
 		Logo_Background.Parent = Main
@@ -765,7 +765,7 @@ end)
 		Logo_Background.Position = UDim2.new(0, 135, 0, 75)
 		Logo_Background.Size = UDim2.new(0, 305, 0, 305)
 		Logo_Background.ImageTransparency = 0.7
-		Logo_Background.Image = "rbxassetid://13717478897"
+		Logo_Background.Image = "rbxassetid://16489330550"
 		RunService.RenderStepped:Connect(function()
 			Logo_Background.Rotation = Logo_Background.Rotation + 1
 			if Logo_Background.Rotation >= 360 then
@@ -779,7 +779,7 @@ end)
 		Title.Position = UDim2.new(0, 45, 0, 10)
 		Title.Size = UDim2.new(0, 483, 0, 31)
 		Title.Font = Enum.Font.FredokaOne
-		Title.Text = "AFX Hub"
+		Title.Text = "MinGaming"
 		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Title.TextSize = 17.000
 		Title.TextWrapped = true
@@ -1620,7 +1620,7 @@ end)
 					TextButton.MouseButton1Click:Connect(function()
 						local SoundClick = Instance.new("Sound")
 						SoundClick.Name = "SoundEffect"
-						SoundClick.SoundId = "rbxassetid://130785805"
+						SoundClick.SoundId = "rbxassetid://16489330550"
 						SoundClick.Volume = 1
 						SoundClick.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
 						SoundClick:Play()
@@ -1628,7 +1628,7 @@ end)
 							Tgo = true
 							pcall(callback,true)
 							MainToggle_3.BackgroundColor3 = _G.Color
-							MainToggle_3.Image = "http://www.roblox.com/asset/?id=16489330550"
+							MainToggle_3.Image = "http://www.roblox.com/asset/?id=http://www.roblox.com/asset/?id"
 							UICorner_3.CornerRadius = UDim.new(0, 100)
 							MainToggle_3:TweenSize(UDim2.new(0, 29, 0, 29),"In","Linear",0.2,true)
 							wait(0.2)
@@ -1926,7 +1926,7 @@ end)
 					ImageButton.Position = UDim2.new(0, 235, 0, 10)
 					ImageButton.Size = UDim2.new(0, 13, 0, 13)
 					ImageButton.ZIndex = 16
-					ImageButton.Image = "http://www.roblox.com/asset/?id=16489330550"
+					ImageButton.Image = "http://www.roblox.com/asset/?id=http://www.roblox.com/asset/?id"
 	
 					local UICorner_35 = Instance.new("UICorner")
 					UICorner_35.CornerRadius = UDim.new(0, 5)
@@ -2211,7 +2211,7 @@ end)
 					ImageButton.Position = UDim2.new(1, -25, 0.5, 0)
 					ImageButton.Size = UDim2.new(0, 12, 0, 12)
 					ImageButton.ZIndex = 16
-					ImageButton.Image = "http://www.roblox.com/asset/?id=16489330550"
+					ImageButton.Image = "http://www.roblox.com/asset/?id=http://www.roblox.com/asset/?id"
 					local DropTable = {}
 					Scroll_Items.Name = "Scroll_Items"
 					Scroll_Items.Parent = MainDropDown
@@ -2686,7 +2686,7 @@ end)
 					Color.Position = UDim2.new(0, 10, 0, 10)
 					Color.Size = UDim2.new(0, 154, 0, 118)
 					Color.ZIndex = 10
-					Color.Image = "rbxassetid://4155801252"
+					Color.Image = "rbxassetid://16489330550"
 			
 					ColorCorner.CornerRadius = UDim.new(0, 3)
 					ColorCorner.Name = "ColorCorner"
@@ -2699,7 +2699,7 @@ end)
 					ColorSelection.BackgroundTransparency = 1.000
 					ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
 					ColorSelection.Size = UDim2.new(0, 18, 0, 18)
-					ColorSelection.Image = "http://www.roblox.com/asset/?id=16489330550"
+					ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
 					ColorSelection.ScaleType = Enum.ScaleType.Fit
 			
 					Hue.Name = "Hue"
@@ -2724,7 +2724,7 @@ end)
 					HueSelection.BackgroundTransparency = 1.000
 					HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
 					HueSelection.Size = UDim2.new(0, 18, 0, 18)
-					HueSelection.Image = "http://www.roblox.com/asset/?id=16489330550"
+					HueSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
 			
 					PresetClr.Name = "PresetClr"
 					PresetClr.Parent = ColorpickerFrame
@@ -3781,7 +3781,7 @@ function GetMaterial(matname)
 				inf.Rotation = NumberRange.new(0, 0)
 				inf.Speed = NumberRange.new(35, 35)
 				inf.SpreadAngle = Vector2.new(360,360)
-				inf.Texture = "rbxassetid://14300572370"
+				inf.Texture = "rbxassetid://16489330550"
 				inf.VelocityInheritance = 0
 				inf.ZOffset = 2
 				inf.Transparency = NumberSequence.new(0)
@@ -4050,7 +4050,7 @@ function GetMaterial(matname)
 		Side = "Left"
 	})
 	CredtSection:AddLabel({
-		Name = "Script Made By AfxcaxiRoblox"
+		Name = "Script Made By AFX Hub"
 	})	
 
 	
@@ -4067,11 +4067,11 @@ function GetMaterial(matname)
 			while task.wait() do
 				pcall(function()
 					if W1 or W2  or W3 then
-						if game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=16489330550" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16489330550" then
+						if game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
 							Stats_Moon:Set("Status Moon : 100% 🌝")
-						elseif game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=16489330550" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16489330550" then
+						elseif game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
 							Stats_Moon:Set("Status Moon : 75% 🌖")
-						elseif game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=16489330550" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
+						elseif game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
 							Stats_Moon:Set("Status Moon : 50% 🌗")
 						elseif game:GetService("Lighting").FantasySky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150086" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150086" then
 							Stats_Moon:Set("Status Moon : 50% 🌗")
@@ -11187,7 +11187,7 @@ spawn(function()
 						toTarget(workspace.Map.MysticIsland.PrimaryPart.CFrame * CFrame.new(0, 300, 0))
 				else
 					if _G.Mode == "English" then
-						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "Mirage not Found!",Icon = "rbxassetid://13717478897",Duration = 1})
+						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "AFX Hub",Text = "Mirage not Found!",Icon = "rbxassetid://16489330550",Duration = 1})
 					else
 						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "เกาะลับยังไม่เกิด",Icon = "rbxassetid://13717478897",Duration = 1})
 					end
@@ -12749,8 +12749,8 @@ MiscSection1:AddButton({
 		kaituncap()
 	end
 })
-FakeDamage("Min_Gaming_On_Top")
-Vec("<Color=Yellow>AFX Hub Loaded Finished, Thank You For Using My Script<Color=/>")
+FakeDamage("AfxcaxiRoblox_On_Top")
+Vec("<Color=Yellow>AFX Hub Loaded Finished<Color=/>")
 	--Vec("<Color=Yellow>:ENG:\n:If the gui doesn't load, use Fluxus in the Executor room:\n:TH:\n:ถ้าหน้าต่างโปรไม่โหลดให้ใช้ Fluxus ที่ผมแจกในห้อง Executor:<Color=/>")
 else
 	game.Players.LocalPlayer:Kick("..")
