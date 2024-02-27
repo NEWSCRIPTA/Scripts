@@ -1,0 +1,179 @@
+_G.ConfigMain = {
+    -- V ให้เลือกเปิดได้ 1 อันถ้าเปิดหลายตัวพร้อมกันจะทำให้สคริปบัค ****
+    ["Auto Farm Level"] = true,
+    ["Double Quest"] = true,
+    ["Farm Boss Quest Too"] = true,
+    ["Skip Farm Level"] = false,
+    ["Auto Quest Level Farm"] = true,
+    ["Select Lock Level"] = 2550,
+    ["Start Lock Level"] = false,
+    ["Select Lock Mastery"] = 300,
+    ["Select Weapon Lock Mastery"] = "",
+    ["Start Lock Mastery"] = false,
+    ["Select Lock Beli"] = 60000,
+    ["Start Lock Beli"] = true,
+    ["Select Redeem Level"] = 1,
+    ["Auto Redeem Code x2"] = true,
+    ["Select Material"] = "",
+    ["Auto Farm Material"] = true,
+    ["Auto Farm Devil Fruit Mastery"] = true,
+    ["Auto Farm Gun Mastery"] = true,
+    ["Auto Farm Sword Mastery List"] = false,
+    ["Select Sword List"] = {},
+    ["Select Rarity Sword List"] = {},
+    ["Select Mastery Sword List"] = 300,
+    ["Health [default : 15 - 20% ]"] = 17,
+
+    -- Skill Mastery
+    ["Skill Click"] = true,
+    ["Skill Z"] = true,
+    ["Skill X"] = true,
+    ["Skill C"] = true,
+    ["Skill V"] = true,
+
+    -- Setting etc
+    ["Fast Attack Mode"] = "Fast Attack", -- Normal Attack, Fast Attack, Super Fast Attack
+    ["Greater Teleportation"] = true,
+    ["White Screen"] = false,
+    ["Select Weapon"] = "",
+    ["Fast Attack"] = true,
+    ["Auto Rejoin"] = true,
+    ["Auto Haki"] = true,
+    ["Auto Observation Haki"] = false,
+    ["Auto Accessory"] = true,
+
+    -- Auto Stats
+    ["Auto Stat kaitan"] = true,
+    ["Melee"] = true,
+    ["Defense"] = true,
+    ["Sword"] = true,
+    ["Gun"] = true,
+    ["Demon Fruit"] = true,
+
+    -- Old World
+    ["Auto New World"] = true,
+
+    -- New World
+    ["Auto Factory"] = true,
+    ["Auto Third World"] = true,
+
+    -- New Fighting Styles & etc
+    ["Auto Godhuman"] = true,
+    ["Auto Superhuman"] = true,
+    ["Auto Death Step"] = true,
+    ["Auto Dragon Talon"] = true,
+    ["Auto Electric Claw"] = true,
+    ["Auto Farm All Boss"] = true,
+    ["Auto Buy Legendary Sword"] = true,
+    ["Auto Buy Legendary Sword Hop"] = true,
+    ["Select Legendary Sword"] = {}, -- "Shisui","Wando","Saddi",
+    ["Lock Legendary Sword To Buy"] = false,
+    ["Auto Buy Enhancement"] = true,
+    ["Auto Buy Enhancement Hop"] = true,
+    ["Select Haki Color"] = {}, -- "Pure Red","Bright Yellow","Yellow Sunshine","Blue Jeans","Orange Soda","Winter Sky","Fiery Rose","Green Lizard","Slimy Green","Rainbow Saviour","Heat Wave","Absolute Zero","Plump Purple","Snow White"
+    ["Lock Haki Color To Buy"] = false,
+
+    -- Farm Etc.
+    ["Select Boss"] = "", -- name boss
+    ["Auto Farm Boss Hop"] = false,
+    ["Auto Farm All Boss"] = false,
+
+    -- Farm Etc. Mob Aura 
+    ["Auto Farm Mob Aura"] = false,
+    ["Distance Mob Aura"] = 100,
+
+    -- Farm Etc. Observation
+    ["Auto Farm Observation Hop"] = true,
+
+    -- Farm Etc. Old World [ Sea 1 ]
+    ["Auto Open Saber Room"] = true,
+    ["Auto Pole V.1"] = true,
+    ["Auto Pole V.1 [ HOP ]"] = true,
+
+    -- Farm Etc. New World [ Sea 2 ]
+    ["Auto Farm Law"] = false,
+
+    ["Auto Quest Bartilo"] = true,
+
+    ["Auto Quest Flower"] = true,
+
+    ["Auto Rengoku"] = true,
+
+    ["Auto Farm Ectoplasm"] = true,
+    ["Auto Ghoul Race Hop"] = false,
+    ["Auto Buy Bizarre Rifle"] = true,
+    ["Auto Buy Ghoul Mask"] = true,
+    ["Auto Buy Midnight Blade"] = true,
+
+    -- Farm Etc. Three World [ Sea 3 ]
+
+    ["Auto Find Full Moon Hop"] = true,
+
+    ["Auto Mirage Island"] = false,
+    ["Auto Mirage Island Hop"] = false,
+
+    ["Auto Cursed Dual Katana"] = true,
+    ["Auto Cursed Dual Katana Hop"] = true,
+
+    ["Auto Pirate Raids"] = true,
+    ["Auto Pirate Raids Hop"] = true,
+
+    ["Auto Unlock SoulGuitar"] = true,
+    ["Auto Unlock SoulGuitar Hop"] = true,
+
+    ["Auto Unlock Dough"] = true,
+    ["Auto Unlock Dough Hop"] = true,
+
+    ["Auto Buddy Swords"] = true,
+    ["Auto Buddy Swords HOP"] = false,
+
+    ["Auto Farm Bone"] = true,
+    ["Auto Hallow Scythe"] = true,
+    ["Auto Farm Soul Reaper"] = true,
+    ["Auto Random bone"] = true,
+
+    ["Auto Farm Cake Prince"] = true,
+
+    ["Auto Tushita"] = true,
+    ["Auto Tushita Hop"] = true,
+
+    ["Auto Enma/Yama"] = true,
+    ["Auto Enma/Yama HOP"] = true,
+
+    ["Auto Elite Hunter"] = true,
+    ["Auto Elite Hunter HOP"] = true,
+    ["Stop if Got God's Chalice"] = true,
+
+    ["Auto Haki Rainbow"] = true,
+
+    ["Auto Musketee Hat"] = true,
+
+    ["Auto Observation Haki V2"] = true,
+
+    -- ETC
+    ["Auto Fast mode"] = true,
+
+    -- Raids
+    ["Select Raids"] = "Flame", -- "Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand"
+    ["Auto Raids Hop"] = false,
+
+    -- Devil Fruit Zone
+    ["Auto Store Fruits"] = true,
+    ["Bring Devil Fruit"] = true,
+    ["Auto Random Devil Fruit"] = true,
+
+    -- Players Zone 
+    ["Auto Farm Bounty"] = false,
+    
+    -- Bounty Options 
+    ["Select Spam Skill Method"] = {"Melee","DevilFruit"},
+    ["Select Lock Bounty"] = 10000000,
+    ["Start Lock Bounty"] = false,
+
+    -- Setting
+
+    ["Auto Save Config"] = true,
+    ["Lock FPS Now"] = false,
+    ["Select Lock FPS"] = 9999,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Donate-Me/main/free%20bf.lua"))()
