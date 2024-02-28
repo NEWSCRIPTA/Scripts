@@ -6,8 +6,8 @@ _G.ConfigMain = {
     ["Skip Farm Level"] = false,
     ["Auto Quest Level Farm"] = true,
     ["Select Lock Level"] = 2550,
-    ["Start Lock Level"] = false,
-    ["Select Lock Mastery"] = 300,
+    ["Start Lock Level"] = true,
+    ["Select Lock Mastery"] = 350,
     ["Select Weapon Lock Mastery"] = "",
     ["Start Lock Mastery"] = false,
     ["Select Lock Beli"] = 60000,
@@ -21,8 +21,8 @@ _G.ConfigMain = {
     ["Auto Farm Sword Mastery List"] = false,
     ["Select Sword List"] = {},
     ["Select Rarity Sword List"] = {},
-    ["Select Mastery Sword List"] = 300,
-    ["Health [default : 15 - 20% ]"] = 17,
+    ["Select Mastery Sword List"] = 350,
+    ["Health [default : 15 - 20% ]"] = 16,
 
     -- Skill Mastery
     ["Skill Click"] = true,
